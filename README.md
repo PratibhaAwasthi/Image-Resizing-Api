@@ -23,7 +23,7 @@ npm run start
 
 ## API Information
 
-This is a 'POST' API that accepts a binary request with an image as the body.
+This is a `POST` API that accepts a binary request with an image as the body.
 
 As query parameters, you must give the image's height and width, to which it will be scaled.
 
