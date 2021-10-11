@@ -25,7 +25,7 @@ npm run start
 
 This is a `POST` API that accepts a binary request with an image as the body.
 
-As query parameters, you must give the image's height and width, to which it will be scaled.
+As query parameters, you must give the image's `height` and `width`, to which it will be scaled.
 
 Example:
 ```bash
@@ -44,7 +44,7 @@ curl --location --request GET 'http://localhost:8000/8fca0300-4fe8-11eb-ba0a-53c
 
 ## Unit Testing
 
-Inside the 'tests' directory, you'll find unit tests.
+Inside the `tests` directory, you'll find unit tests.
 A preset script may be used to execute the unit tests:
 ```bash
 npm run test
@@ -52,7 +52,7 @@ npm run test
 
 ## Coding Styles
 
-For 'git' hooks, the project utilizes 'husky.' Pre-commit hooks are available to execute 'eslint' and 'prettier' on staged files. The unit tests are conducted using a pre-push hook. The 'package.json' file contains the configuration for this.
+For `git` hooks, the project utilizes `husky`. Pre-commit hooks are available to execute `eslint` and `prettier` on staged files. The unit tests are conducted using a pre-push hook. The `package.json` file contains the configuration for this.
 
 ## Built With
 
