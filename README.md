@@ -1,22 +1,18 @@
-# Image Processsing API
+# Image Resizing API - Overview
 
-A NodeJS project that resizes and serves images sent to the API.
+It is a NodeJS project that resizes and serves images sent to the API. 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-You need `node@^12` and `npm@^6` installed on your system.
+The instructions below helps you to run this website locally.
 
 ### Installation
 
 A step by step series of examples that tell you how to get a development environment running.
 
-Install all project dependencies with `npm`:
-```bash
-npm i
+1. TypeScript
+
+```npm i -D typescript ts-node
 ```
 
 Now, you can start the application with the predefined scripts:
