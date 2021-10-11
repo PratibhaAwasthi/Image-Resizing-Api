@@ -21,8 +21,6 @@ npm run dev
 npm run start
 ```
 
-The application will run on http://localhost:8000.
-
 ## API Information
 
 **/image/**
