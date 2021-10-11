@@ -12,7 +12,8 @@ A step by step series of examples that tell you how to get a development environ
 
 1. TypeScript
 
-```npm i -D typescript ts-node
+```bash
+npm i -D typescript ts-node
 ```
 
 Now, you can start the application with the predefined scripts:
