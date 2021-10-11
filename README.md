@@ -2,21 +2,18 @@
 
 It is a NodeJS project that resizes and serves images sent to the API. 
 
-## Getting Started
+### Requirements
 
-The instructions below helps you to run this website locally.
+You need `node@^12` and `npm@^6` installed on your system.
 
 ### Installation
 
-A step by step series of examples that tell you how to get a development environment running.
-
-1. TypeScript
-
+Install all project dependencies with `npm`:
 ```bash
-npm i -D typescript ts-node
+npm i
 ```
 
-Now, you can start the application with the predefined scripts:
+Now, Start the application with the predefined scripts:
 
 ```bash
 npm run dev
@@ -30,9 +27,9 @@ The application will run on http://localhost:8000.
 
 **/image/**
 
-This is a `POST` API that accepts a binary request with the image to be process as body.
+This is a 'POST' API that accepts a binary request with an image as the body.
 
-You need to send the `height` and `width`, to which the image is to be resized, as query parameters.
+As query parameters, you must give the image's height and width, to which it will be scaled.
 
 Example:
 ```bash
@@ -41,7 +38,7 @@ curl --location --request POST 'http://localhost:8000/image/?width=320&height=20
 --data-binary '@/home/user/Pictures/image.jpg'
 ```
 
-This API will return a filename that can be used to download the resized image.
+The scaled image can be downloaded using the filename returned by this API.
 
 Example:
 ```bash
@@ -51,23 +48,19 @@ curl --location --request GET 'http://localhost:8000/8fca0300-4fe8-11eb-ba0a-53c
 
 ## Unit Testing
 
-Unit tests can be found inside the `tests` directory.
-The unit tests can be run from a predefined script:
+Inside the 'tests' directory, you'll find unit tests.
+A preset script may be used to execute the unit tests:
 ```bash
 npm run test
 ```
 
 ## Coding Styles
 
-The project uses `husky` for `git` hooks. There are pre-commit hooks to run `eslint` and `prettier` on staged files. There is a pre-push hook that runs the unit tests. The configuration for this is present inside the `package.json` file.
+For 'git' hooks, the project utilizes 'husky.' Pre-commit hooks are available to execute 'eslint' and 'prettier' on staged files. The unit tests are conducted using a pre-push hook. The 'package.json' file contains the configuration for this.
 
 ## Built With
 
-* [NodeJS](https://nodejs.org/en/) - The JavaScript runtime.
-* [Express](https://expressjs.com/) - The web framework.
-* [TypeScript](https://www.typescriptlang.org/) - The language used.
-* [Sharp](https://sharp.pixelplumbing.com/) - NodeJS image processor.
-
-## Authors
-
-* **Surya Kant Bansal** - *Initial work* - [skb1129](https://github.com/skb1129)
+* [NodeJS](https://nodejs.org/en/)
+* [Express](https://expressjs.com/)
+* [TypeScript](https://www.typescriptlang.org/) 
+* [Sharp](https://sharp.pixelplumbing.com/) 
