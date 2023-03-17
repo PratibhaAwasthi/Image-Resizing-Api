@@ -35,7 +35,8 @@ Test image resizing functionality
 Implement statistics endpoint for API usage tracking
 Final testing and debugging of the API
 
-## Motivation: The Image-Processing-API provides developers with an easy-to-use and efficient tool for processing images. With the growing demand for high-quality and fast-loading websites and applications, it is important to have a tool that can optimize images for better performance. By using the Image-Processing-API, developers can ensure that images are processed quickly and efficiently, leading to a better user experience. Additionally, the API can save developers time and effort by automating the process of resizing images, freeing up time to focus on other aspects of the project. Overall, the Image-Processing-API is a valuable tool for developers looking to improve the performance and user experience of their websites or applications.
+## Motivation: 
+The Image-Processing-API provides developers with an easy-to-use and efficient tool for processing images. With the growing demand for high-quality and fast-loading websites and applications, it is important to have a tool that can optimize images for better performance. By using the Image-Processing-API, developers can ensure that images are processed quickly and efficiently, leading to a better user experience. Additionally, the API can save developers time and effort by automating the process of resizing images, freeing up time to focus on other aspects of the project. Overall, the Image-Processing-API is a valuable tool for developers looking to improve the performance and user experience of their websites or applications.
 
 
 ## Requirements
